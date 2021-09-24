@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/public.css">
+
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/top.css">
     <link rel="stylesheet" href="../css/fuzhuangcheng.css">
-    <link rel="stylesheet" href="../css/swiper.min.css">
     <script src="../js/jquery-3.6.0.js"></script>
 
-    <script src="../js/swiper.js"></script>
+
 </head>
 
 <body>
@@ -477,6 +479,41 @@
             </ul>
         </div>
     </div>
+    <div class="header">
+        <div class="w1200 z-top">
+            <div class="logo fl">
+                <a href="../index.html">
+                    <img src="../images/shop_logo.gif" alt="">
+                </a>
+            </div>
+            <div class="header-search fl">
+                <form action="">
+                    <input type="text" value="Five Plus" class="search-con">
+                    <button type="submit" class="button-goods">搜商品</button>
+                    <button type="submit" class="button-store">搜店铺</button>
+                    <div class="keyword fl">
+                        <a href="#">周大福</a>
+                        <a href="#">内衣</a>
+                        <a href="#">Five Plus</a>
+                        <a href="#">手机</a>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="my-shopCart fr">
+                <a href="">
+                    <img src="../images/购物车.png" alt="">
+                    <span>我的购物车</span>
+                    <em>0</em>
+                </a>
+                <div class="prompt">
+                    <img src="../images/zhu-2.png" alt="">
+                    <span>购物车中还没有商品，赶紧选购吧！</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 导航栏部分 -->
     <nav id="nav">
         <div class="w w1200">
@@ -867,16 +904,16 @@
             </div>
             <div class="nav-main">
                 <ul>
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">个护美妆</a></li>
-                    <li><a href="#" class="active">服装城</a></li>
-                    <li><a href="#">家用电器</a></li>
-                    <li><a href="#">鞋靴箱包</a></li>
-                    <li><a href="#">聚划算</a></li>
-                    <li><a href="#">预售</a></li>
-                    <li><a href="#">店铺街</a></li>
-                    <li><a href="#">品牌专区</a></li>
-                    <li><a href="#">公告</a></li>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="meizhuang.html">个护美妆</a></li>
+                    <li><a href="fuzhuangcheng.html" class="active">服装城</a></li>
+                    <li><a href="Electrical.html">家用电器</a></li>
+                    <li><a href="page1C.html">鞋靴箱包</a></li>
+                    <li><a href="index6.html">聚划算</a></li>
+                    <li><a href="index7.html">预售</a></li>
+                    <li><a href="index8.html">店铺街</a></li>
+                    <li><a href="pinpaizhuanqu.html">品牌专区</a></li>
+                    <li><a href="gonggao.html">公告</a></li>
                 </ul>
             </div>
         </div>
@@ -925,7 +962,7 @@
         </div>
     </div>
     <!-- 主题部分 -->
-    <div class="main w w1200">
+    <div class="main w w1200 clearfix">
         <div class="limitime">
             <div class="hd">
                 <h2>限时抢购</h2>
@@ -1390,7 +1427,8 @@
         </div>
 
     </div>
-    <div class="footer">
+    <div class="clearfix"></div>
+    <div class="footer clearfix">
         <div class="footer-top">
             <div class="w w1200">
                 <ul class="service-list">
@@ -1699,5 +1737,6 @@
     </div>
     <script src=" ../js/fuzhuang.js "></script>
     <script src="../js/showPage.js"></script>
+    <script src="../js/cart.js"></script>
 
 </html>

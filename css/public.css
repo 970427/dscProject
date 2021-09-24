@@ -93,6 +93,11 @@ input[readonly="readonly"] {
     background-color: #ebebe4;
 }
 
+.z-top {
+    height: 100px;
+    position: relative;
+}
+
 .w {
     margin: 0 auto;
 }

@@ -3,6 +3,18 @@
     border-bottom: 2px solid #EE356C;
 }
 
+.header .header-search form .search-con {
+    border-color: #EE356C;
+}
+
+.header .header-search form .button-goods {
+    background-color: #EE356C;
+}
+
+.header .header-search form .button-store {
+    background-color: #EE356C;
+}
+
 .categorys {
     width: 250px;
     float: left;
